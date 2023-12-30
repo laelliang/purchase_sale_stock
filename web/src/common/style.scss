@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fa;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.btn {
+  font-size: 18px;
+  color: #1989fa;
+  cursor: pointer;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
